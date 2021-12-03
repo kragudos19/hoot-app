@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgb(151, 224, 200);
+  z-index: 100;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+.header__icon {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 50px;
+}
+.header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 20px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  background-color: azure;
+  max-width: fit-content;
+}
+.header__center > input {
+  border: none;
+  width: 250px;
+  outline-width: 0;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  margin-right: 80px;
+}
