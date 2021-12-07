@@ -8,7 +8,7 @@ function Banner() {
 
   return (
     <div className="banner">
-      <div className="banner__serach">
+      <div className="banner__search">
         {showSearch && <Search />}
         <Button
           variant="outlined"
